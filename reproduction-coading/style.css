@@ -1,0 +1,271 @@
+/* PC,SP共通スタイル */
+body {
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.menu > a {
+    font-size: 34px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* PC用スタイル */
+/* 画面幅が768ｐｘ以上のとき */
+@media screen and (min-width: 768px) {
+    
+body {
+    max-width: 960px;
+}
+
+/* header */
+
+#header1 {
+    width: 598px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+#header1 > h1 {
+    border: solid 1px #000000;
+    padding: 10px 28px;
+    margin: 0;
+}
+
+.menu > a {
+    margin-left: 35px;
+}
+
+/* main visualについて */
+.main-visual {
+    height: 400px;
+}
+
+
+.main-visual > img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* aboutについて */
+#about > h1 {
+    height: 46px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 22px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about-content > img {
+    border-radius: 140px 140px;
+    margin-right: 33px;
+    width: 141px;
+    height: 142px;
+}
+
+.about-detail > h2 {
+    margin: 0;
+}
+
+.about-detail > ul {
+    margin: 0;
+}
+
+/* worksについて */
+#works > h1 {
+    height: 46px;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 30px;
+}
+
+.works-content {
+    display: flex;
+    justify-content: center;
+}
+
+.works-detail {
+    margin-right: 18px;
+}
+
+.works-detail > img {
+    width: 179px;
+    height: 134px;
+}
+
+.works-detail > p {
+    width: 179px;
+    margin: 27px auto o auto;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 17px;
+}
+
+}
+
+/* SP用スタイル */
+/* 画面幅が768ｐｘ未満のとき */
+@media screen and (max-width: 767px) {
+
+body {
+    min-width: 375px;
+    width: 100%;
+}
+
+/* header */
+
+#header1 {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#header1 > h1 {
+    border: solid 1px #000000;
+    padding: 10px 28px;
+    margin: 0;
+}
+
+
+.menu {
+    width: auto;
+}
+
+.menu > a {
+    margin-left: 20px;
+}
+
+
+/* main-visualについて */
+.main-visual {
+    height: 400px;
+}
+
+.main-visual > img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* Aboutについて */
+#about > h1 {
+    height: 46px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 42px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 60px;
+}
+
+.about-content > img {
+    border-radius: 140px 140px;
+    margin-right: 39px;
+    width: 141px;
+    height: 142px;
+
+}
+
+
+.about-detail > h2 {
+    margin: 0;
+}
+
+.about-detail > ul {
+    margin: 0;
+}
+
+/* Worksについて */
+#works > h1 {
+    height: 46px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.works-content {
+
+}
+
+
+.works-detail > #img1 {
+    width: 647px;
+    height: 580px;
+    display: block;
+    margin:0 auto;
+}
+
+.works-detail > #p1 {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 34px;
+}
+
+.works-detail > #img2 {
+    width: 647px;
+    height: 490px;
+    display: block;
+    margin: 0 auto;
+}
+
+.works-detail > #p2 {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 34px;
+}
+
+.works-detail > #img3 {
+    width: 647px;
+    height: 492px;
+    display: block;
+    margin: 0 auto;
+}
+
+.works-detail > #p3 {
+    margin-top: 16px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+}
